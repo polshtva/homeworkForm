@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 3</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Контактная информация</legend>
+            <p> Имя *<input type="text" required name="name"></p>
+            <p>Телефон <input type="tel" name="phone"></p>
+           <p> Email *<input type="email" name="email" required></p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Персональная информация</legend>
+            <p>Возраст *<input type="number" max="100" min="1" step="1" required></p>
+            <p>
+                Пол <select name="gender" id="">
+                    <option value="woman">Женщина</option>
+                    <option value="man">Мужчина</option>
+                </select>
+            </p>
+            <p>
+                Перечислите личные качества<textarea name="your_value"></textarea>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Выберите ваших любимых животных</legend>
+            <br>
+            <label for="zebra">
+                <input type="checkbox" name="animal" id="zebra">Зебра
+            </label>
+            <label for="cat">
+                <input type="checkbox" name="animal" id="cat">Кошка
+            </label>
+            <label for="anaconda">
+                <input type="checkbox" name="animal" id="anaconda">Анаконда 
+            </label> <br> <br>
+            <label for="slon">
+                <input type="checkbox" name="animal" id="slon">Слон
+            </label>
+            <label for="antilopa">
+                <input type="checkbox" name="animal" id="antilopa">Антилопа
+            </label>
+            <label for="golub">
+                <input type="checkbox" name="animal" id="golub">Голубь
+            </label>
+            <label for="krab">
+                <input type="checkbox" name="animal" id="krab">Краб
+            </label>
+        </fieldset>
+        <p><input type="submit" value="Отправить информацию"></p>
+        <p><input type="reset" value="Очистить"></p>
+    </form>
+</body>
+</html>

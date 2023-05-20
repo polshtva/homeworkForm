@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 2</title>
+</head>
+<body>
+      <form action="">
+        <p>Введите ФИО:</p>
+        <input type="text" name="fio" required>
+        <p>Введите пароль:</p>
+        <input type="password" name="password" required>
+        <br>
+        <p>Какой диск вы хотите получить?</p>
+        <label for="value1">
+            <input type="radio" name="disk" id="value1">CD
+         </label>   <br>
+         <label for="value2">
+            <input type="radio" name="disk" id="value2">DVD
+         </label>
+         <br>
+         <p>Какие обучающие курсы вы хотите видеть на диске?</p>
+         <label for="course1">
+            <input type="checkbox" name="курсы" id="course1">Курсы по Фотошопу
+         </label> <br>
+         <label for="course2">
+            <input type="checkbox" name="курсы" id="course2">Курсы по Adobe Dreamweaver
+         </label> <br>
+         <label for="course3">
+            <input type="checkbox" name="курсы" id="course3">Курсы по PHP
+         </label>
+            <p>Выберите способ доставки: </p>
+         <select name="dostavka" id="">
+            <option value="kur">Курьером</option>
+            <option value="pochta">Почта России</option>
+            <option value="post">Постаматы</option>
+            <option value="punct">Пункт самовывоза</option>
+         </select>
+         <p>Введите адрес для доставки: </p>
+         <textarea placeholder="Введите данные" rows="10" cols="30"></textarea>
+         <br>
+         <input type="submit" value="Сделать заказ">
+         <input type="reset" value="Отмена">
+      </form>
+      <br>
+      <a href="index3.html" target="_blank"><img src="picture/z3.png" alt="3 Задание"></a>
+</body>
+</html>
